@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Josefin;
+    src: url("../fonts/JosefinSans-Regular.ttf")
+}
+
+html,
+body {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Josefin;
+}
+
+#main-section {
+    width: 80%;
+    margin: 0 auto;
+}
+#main-section h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #2f8c46;
+    font-weight: bold;
+}
+#main-section table {
+    width: 70%;
+    font-size: 20px;
+    color: #2f8c46;
+    font-weight: bold;
+    margin: 0 auto;
+}
+#main-section table td:first-child {
+    width: 25%;
+}
+#main-section table input,
+select,textarea {
+    width: 95%;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+
+    outline: none;
+}
+
+#main-section table input:focus {
+    border: solid 2px #2f8c46;
+}
+#main-section table textarea:focus {
+    border: solid 2px #2f8c46;
+}
+.btn-reg {
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 80%;
+    margin-top: 15px;
+    background: #2f8c46;
+    color: #fff;
+    font-size: 15px;
+
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.btn-reg:hover {
+    background: #fff;
+    color: #2f8c46;
+}
+
+.cerrar-sesion {
+    color: red;
+    text-decoration: none;
+    position: absolute;
+    left: 86%;
+    top: 5%;
+    font-size: 20px;
+    border: solid 1px red;
+    padding: 5px;
+    font-weight: bold;
+    
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.cerrar-sesion:hover{
+    background: red;
+    color: #fff;
+}
