@@ -55,7 +55,3 @@ LANGUAGE 'plpgsql'
 VOLATILE
 CALLED ON NULL INPUT
 SECURITY INVOKER
-
-
-
--------esto es un cambio--------------
